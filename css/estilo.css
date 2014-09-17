@@ -1,3 +1,7 @@
+*{
+margin: 0;
+    padding: 0;
+}
 body
 {
 background: #eee; 
@@ -10,6 +14,7 @@ header
 background: #202020;
 color: white;
 padding: 0.5em;
+overflow: hidden;    
 }
 
 header figure
@@ -45,3 +50,117 @@ font-size: 1.2em;
 font-weight: normal;
 margin: 0.5px 70px 0 70px;
 }
+nav
+{
+background: #63bcb8;
+box-shadow: rgba (0,0,0,0.5) 0px 2px 10px;
+padding: 0 0.5em;
+position: relative;
+}
+
+nav ul li
+ { 
+display: inline-block;
+margin: 0 1em 0 0;  
+padding: 0.5em 0 0.5em 0
+}
+
+nav ul li a
+{ 
+color: white;
+text-decoration: none;
+padding: 0 0.5em;
+}
+ 
+nav ul
+{
+list-style: none;
+margin: 0 80px 0 0;
+}
+
+nav ul #publicar
+{
+position: absolute;
+right: 0;
+top: 0;
+}
+
+nav ul #publicar a
+{
+background: #297571;
+border-radius: 5px;
+padding: 0.8em 0.5em;
+box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+text-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+font-style: italic;
+} 
+
+#contenido
+{
+margin: 1em;
+}
+
+#contenido .item
+{
+background: #fff;
+margin-bottom: 3em;
+border-bottom: solid #2e7476 3px;
+min-height: 130px; 
+}
+
+#contenido .item .img_item img
+{
+width: 85px;
+}
+
+#contenido .item .img_item
+{
+float: left;
+margin: 0 1em 0 0;
+}
+
+#contenido .item .titulo_item
+{
+font-size: 1.2em;
+font-style: italic;
+color: #3e453e;
+padding: 0.8em 0 0 0;
+}
+
+#contenido .item .datosautor_item 
+{
+color: #aaa;
+margin: 0.8em 0 0.5em 0;
+}
+
+#contenido . item . datosautor_item a
+{
+color: #26738d;
+text-decoration: none;
+}
+
+#contenido item .info:item
+{
+width: 100%;
+position: relative;
+}
+
+#contenido .item .info_item .tag_item
+{
+background:  #f56363;
+border-radius: 0.5em; 
+padding: 0.2em 0.5em;
+float: left;
+color: white;
+text-decoration: none;
+}
+    
+#contenido.item .info_item .tiempo_item
+{
+position: absolute;
+right: 0;
+}
+        
+        
+        
+        
